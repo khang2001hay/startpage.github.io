@@ -1,0 +1,103 @@
+/*
+cú pháp
+@media screen and (max (or min):number pixel){
+    code #
+}
+mobile(min-width-0px)-->(max-width:768)
+
+table(min-width-768px)-->(max-width:1024)
+
+destop(min-width>1024px)*/
+@media screen and (max-width:768px) {
+    .header .menu ul li{
+  padding: 0.5em;
+}
+.header .icon ul li{
+    padding: 0.5rem;
+padding-right: 0.5rem;
+}
+.main-1 .content h1{
+    font-size:1.5rem;
+}
+.main-1 .content span{
+    font-size:0.65rem;
+}
+.main-1 .content p{
+    font-size: 0.5rem;
+}
+.main-1 .content button {
+    font-size: 0.8rem;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 0.8rem;
+}
+.main-2 .contentBig{
+    padding: 1rem;
+}
+.main-2 .contentBig .icon-2{
+    margin-top: 6rem;
+}
+.main-2  .contentBig .icon-2 i {
+    width: 0;
+    font-size: 6rem;
+   color: #f44336;
+   padding-right:7rem;
+}
+.main-2 .contentBig .content-2 h2{
+    font-size: 1rem;
+    padding:0;
+}
+.main-2 .contentBig .content-2 p {
+    padding-top:0.5rem;
+    font-size: 0.5rem;}
+.main-3{
+    padding: 0;
+}
+.main-3 .contentbig-3{
+    padding: 0.1rem;
+}
+.main-3 .contentbig-3 .content-3 h2{
+    font-size: 1.5rem;
+    text-align: right;
+}
+.main-3 .contentbig-3 .content-3 p{
+    padding:0.5rem!important;
+    font-size: .5rem;
+}
+.main-3 .contentbig-3 .icon-3 i{
+    font-size:6rem ;
+}
+.main-3 .contentbig-3 .icon-3{
+   margin-top: 2rem;
+   margin-left: .2rem;
+}
+    .main-4 p{
+        padding: 3rem 0;
+        font-size: 1rem;
+    }
+ /*footer*/
+ .footer .content-footer{
+     padding:3rem;
+ }
+ .footer .content-footer ul li{
+     display: inline-block;
+     font-size: 3rem;
+     padding:0px 0.2rem;
+ }
+ .footer .content-footer p{
+     font-size: .8rem;
+ }
+/*end mobile*/
+/*start table*/
+@media screen and (max-width:1024) {
+    .main-2{
+        padding: .3rem;
+    }
+.main-3{
+    padding: 0;
+}
+.main-3 .contentbig-3{
+    padding: 2rem;
+}
+   /*end table*/ 
+   /*start screen*/

@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Montserrat';
+  }
+  
+  .header {
+    width: 100%;
+    height: auto;
+    background-color: #f44336;
+    box-shadow: -2px 0px 10px;
+    position: fixed;
+    z-index: 1;
+  }
+  /*CSS selector*/
+  .header {
+    width: 100%;
+    height: auto;
+    background-color: #f44336;
+    box-shadow: -2px 0px 10px;
+    position: fixed;
+    z-index: 1;
+  }
+  /*CSS selector*/
+  .header .menu {
+    display: inline-block;
+  }
+  .header .menu ul {
+    list-style: none;
+  }
+  .header .menu ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  .header .menu ul li:hover {
+    background: white;
+  }
+  .header .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+  .header .menu ul li a:hover {
+    color: rgb(0, 0, 0);
+  }
+  .header .icon {
+    display: inline-block;
+    float: right;
+  }
+  
+  .header .icon ul {
+    list-style: none;
+  }
+  .header .icon ul li {
+    padding: 20px;
+    padding-right: 40px;
+  }
+  .header .icon ul li i {
+    font-size: 15px;
+    color: white;
+  }
+  .header .icon ul li i:hover {
+    transition: 1s;
+    color: rgb(0, 0, 0);
+  }
+  .header .menu ul li.active {
+    background-color: white;
+  }
+  .header .menu ul li.active:hover {
+    background-color: #ccc;
+  }
+  .header .menu ul li.active a {
+    color: rgb(0, 0, 0);
+  }
+  .main-1 {
+    width: 100%;
+    height: auto;
+    background-color: #f44336;
+  }
+  .main-1 .content {
+    text-align: center;
+    padding: 150px;
+  }
+  .main-1 .content h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+  }
+  .main-1 .content span {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  .main-1 .content p {
+    color: white;
+    font-size: 25px;
+    padding: 35px;
+  }
+  .main-1 .content button {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  .main-1 .content button:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  .main-2{
+      width: 100%;
+      height: auto;
+      padding: 10px 100px;
+  }
+  
+  .main-2 .contentBig  .content-2{
+      width: 65%;
+      display: inline-block;
+      padding-top: 30px;
+  }
+  .main-2 .contentBig{
+      padding:50px;
+  }
+  .main-2 .contentBig .content-2 h2{
+      text-transform: capitalize;
+      font-size: 36px;
+      font-weight: 100;
+      padding: 50px 20px;
+  }
+  .main-2 .contentBig .content-2 p{
+     padding: 20px;
+  }
+  .main-2 .contentBig  .icon-2{
+      width: 25%;
+      display: inline-block;
+      text-align: center;
+      float:right;
+      margin-top: 150px;
+    }
+  .main-2  .contentBig .icon-2 i {
+      font-size: 12rem;
+     color: #f44336;
+     padding-bottom: 20px;
+  }
+  .main-3{
+      background-color: #f1f1f1;
+      width: 100%;
+      height: auto;
+   padding: 10px 100px;
+  }
+  .main-3 .contentBig-3{
+      padding: 50px;
+  }
+  .main-3 .contentBig-3 .content-3 h2{
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 100;
+  }
+  .main-3 .contentBig-3 .icon-3{
+      display: inline-block;
+      width: 25%;
+      float: left;
+      padding:100px;
+  }
+  .main-3 .contentBig-3 .content-3{
+      display: inline-block;
+      width: 65%;
+  }
+  .main-3 .contentBig-3 .icon-3 i {
+      font-size: 12rem;
+      color: #f44336;
+  }
+  .main-4{
+      background-color: #666;
+      width: 100%;
+      height: auto;
+  }
+  .main-4 p{
+      text-align: center;
+      padding: 90px 0;
+      font-size: 25px;
+      color: white;
+  }
+  .footer{
+      width: 100%;
+      height: auto;
+      text-align: center;
+      opacity: 0.5;
+  }
+  .footer .content-footer{
+      padding: 80px;
+   
+  }
+  .footer  .content-footer ul {
+      list-style: none;
+      padding: 20px;  
+  }
+  .footer  .content-footer ul li {
+      display: inline-block;
+      font-size: 30px;
+      padding:0px 2px;
+  }
+  .footer  .content-footer ul li i:hover {
+    color: #a3a3a3;
+  }
+  .footer .content-footer a{
+      color: black;
+  }
